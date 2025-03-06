@@ -47,18 +47,23 @@ header {
     border: none;
     height: 50px;
     margin-bottom: 20px;
-    font-size: 16px;
+    font-size: 18px;
 }
 .login button {
-    width: 100%;
-    padding: 10px;
-    margin: 10px 0;
-    border-radius: 5px;
+   color: white;
+   background-color: red;
+    width: 350px;
+    border-radius: 6px;         
     border: none;
     height: 50px;
-    background-radius: 6px;
-    background-color: red;
-    color: white;
+    margin-bottom: 20px;
     font-size: 18px;
+}
+.login button::hover{
     cursor: pointer;
+}
+.login footer{
+    color: white;
+    text-align: center;
+    font-size: 16px;
 }
